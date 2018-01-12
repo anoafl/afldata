@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1762071947",
     "id" : "F82970D7",
-    "lastKnownWriteTime" : 1515730023,
-    "last_content_update" : 1515730023467,
+    "lastKnownWriteTime" : 1515730481,
+    "last_content_update" : 1515730481722,
     "path" : "C:/Users/z5144607/Google Drive/afldata/afldata/R/afldata-package.r",
     "project_path" : "R/afldata-package.r",
     "properties" : {
-        "cursorPosition" : "7,0",
+        "cursorPosition" : "2,42",
         "scrollLine" : "0"
     },
     "relative_order" : 4,

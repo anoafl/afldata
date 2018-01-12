@@ -1,6 +1,6 @@
 #' afldata.
 #'
-#'AFL data updated weekly
+#'AFL data updated weekly by me hopefully!
 #'
 #' @name afldata
 #' @docType package
