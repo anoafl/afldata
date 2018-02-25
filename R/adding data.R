@@ -1,6 +1,6 @@
 library(readxl)
-data2upload <- read.csv("C:/Users/Rober/Google Drive/AFL brownlow/afl attack defence/margin.csv")
-
+data2upload <- read.csv("A:/OneDrive/PhD statistics/mixed models/margin.csv")
+names(data2upload)
 library(devtools)
 margin=data2upload
 use_data(margin,overwrite = TRUE)
