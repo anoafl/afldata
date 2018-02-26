@@ -1,7 +1,7 @@
 library(readxl)
 # data2upload <- ("A:/OneDrive/PhD statistics/mixed models/margin.csv")
 data2upload <- read.csv("C:/Users/rober/Google Drive/afl_odds.csv")
-names(afl_odds)
+names(data2upload)
 library(devtools)
 afl_odds=data2upload
 use_data(afl_odds,overwrite = TRUE)
