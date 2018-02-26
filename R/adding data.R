@@ -1,14 +1,15 @@
 library(readxl)
-data2upload <- read.csv("A:/OneDrive/PhD statistics/mixed models/margin.csv")
-names(data2upload)
+# data2upload <- ("A:/OneDrive/PhD statistics/mixed models/margin.csv")
+data2upload <- read.csv("C:/Users/rober/Google Drive/afl_odds.csv")
+names(afl_odds)
 library(devtools)
-margin=data2upload
-use_data(margin,overwrite = TRUE)
+afl_odds=data2upload
+use_data(afl_odds,overwrite = TRUE)
 
 devtools::check()
 
 library(devtools)
-# devtools::install_github("jimmyday12/FitzRoy")
+devtools::install_github("anoafl/afldata")
 
 use_data(player_stats_basic,overwrite = TRUE)
 scoreprogression_unparsed=fitzRoy::scoreprogression_unparsed
