@@ -9,7 +9,7 @@
 # devtools::check()
 #
 # library(devtools)
-# devtools::install_github("anoafl/afldata")
+devtools::install_github("jimmyday12/fitzroy")
 #
 # # use_data(player_stats_basic,overwrite = TRUE)
 # # scoreprogression_unparsed=fitzRoy::scoreprogression_unparsed
