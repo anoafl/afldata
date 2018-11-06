@@ -10,7 +10,7 @@
 # NBA_Team_BoxScores_Extended=data2upload
 # use_data(NBA_Team_BoxScores_Extended,overwrite = TRUE)
 #
-# devtools::check()
+devtools::check()
 # #
 # # library(devtools)
 # devtools::install_github("jimmyday12/fitzroy")
